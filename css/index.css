@@ -1,0 +1,54 @@
+.backgroundHome {
+  background: url(../images/homepage.jpg);
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-width: 100%;
+}
+
+.homepageIntro {
+  margin: 40px 30px 120px 30px;
+  position: relative;
+}
+
+.homepageHours {
+  margin: 40px 30px 60px 30px;
+}
+
+.hoursLine {
+  height: 2px;
+  border-radius: 2px;
+  background-color: #839895;
+  margin: 40px 0px;
+}
+
+.homepageHours table {
+  font-size: 0.7em;
+}
+
+.homepageBigInfo {
+  margin: 0px 30px 30px 30px;
+}
+
+.homepageBigInfo img,
+.homepageSmallInfo img {
+  width: 100%;
+}
+
+.homepageBigInfoContent {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.homepageSmallInfo {
+  margin: 135px 20px 100px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+
+.homepageSmallInfoContent {
+  position: relative;
+  margin: 10px;
+}

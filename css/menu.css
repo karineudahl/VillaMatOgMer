@@ -1,0 +1,13 @@
+.backgroundMenu {
+  background: url(../images/menu.jpg);
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-width: 100%;
+}
+
+.menuContainer {
+  margin: 30px;
+}
