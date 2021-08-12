@@ -130,6 +130,11 @@
     max-width: 600px;
     margin: 70px auto;
   }
+
+  .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
 }
 
 @media (min-width: 900px) {
@@ -178,5 +183,10 @@
   .rentContainer {
     max-width: 600px;
     margin: 70px auto;
+  }
+
+  .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   }
 }

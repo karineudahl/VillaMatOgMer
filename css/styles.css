@@ -75,6 +75,11 @@ a {
   display: inline;
 }
 
+.whereAmINow {
+  text-decoration: none;
+  color: grey;
+}
+
 .ctaGreen {
   background-color: #839895;
   text-decoration: none;
