@@ -30,11 +30,12 @@ header {
 
 .logo-img {
   height: 100px;
+  margin-bottom: 20px;
 }
 
 a {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   text-transform: uppercase;
 }
@@ -51,6 +52,7 @@ a {
 .nav-ul {
   margin-bottom: 30px;
 }
+
 .nav-ul li {
   display: inline;
 }
@@ -88,9 +90,6 @@ a {
   border-radius: 2px;
   width: 110px;
   font-size: 0.8em;
-  position: absolute;
-  right: 0px;
-  margin-top: 20px;
   text-align: center;
 }
 

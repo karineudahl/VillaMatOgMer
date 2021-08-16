@@ -1,0 +1,13 @@
+.backgroundShop {
+  background: url(../images/landhandel.jpg);
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-width: 100%;
+}
+
+.shopContainer {
+  margin: 30px;
+}

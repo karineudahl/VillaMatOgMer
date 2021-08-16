@@ -126,7 +126,8 @@
   .homepageHours,
   .aboutContainer,
   .menuContainer,
-  .rentContainer {
+  .rentContainer,
+  .shopContainer {
     max-width: 600px;
     margin: 70px auto;
   }
@@ -180,7 +181,8 @@
   .homepageHours,
   .menuContainer,
   .aboutContainer,
-  .rentContainer {
+  .rentContainer,
+  .shopContainer {
     max-width: 600px;
     margin: 70px auto;
   }
