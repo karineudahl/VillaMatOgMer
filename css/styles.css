@@ -62,6 +62,12 @@ a {
   font-size: 0.8em;
 }
 
+.nav-ul li a:hover {
+  background-color: #839895;
+  color: white;
+  border-radius: 5px;
+}
+
 .fa-facebook-f,
 .fa-instagram,
 .fa-envelope,
@@ -71,6 +77,13 @@ a {
   padding: 5px;
   margin: 10px 0px 10px 0px;
   cursor: pointer;
+}
+
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-envelope:hover,
+.fa-phone-alt:hover {
+  transform: scale(1.4);
 }
 
 .whereAmIContainer li {
@@ -94,9 +107,9 @@ a {
 }
 
 footer {
-  padding: 5px 30px 30px 30px;
+  padding: 50px 50px 100px 50px;
   background-color: #d3ccbc;
-  margin-top: 60px;
+  margin-top: 150px;
 }
 
 .footerContainer p,

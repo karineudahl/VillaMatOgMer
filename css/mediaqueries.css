@@ -109,17 +109,13 @@
     font-size: 0.9em;
   }
 
-  .homepageBigInfo {
-    display: flex;
-  }
-
-  .homepageBigInfoContent {
+  .home-big-info-content {
     margin: 15px;
   }
 
-  .homepageSmallInfo {
+  .home-small-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
 
   .homepageIntro,
@@ -164,17 +160,32 @@
     font-size: 1em;
   }
 
-  .homepageBigInfo {
-    display: flex;
+  .home-big-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   }
 
-  .homepageBigInfoContent {
+  .home-big-info-content {
     margin: 15px;
   }
 
-  .homepageSmallInfo {
+  .home-small-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  }
+
+  .afternoon-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 10px auto;
+  }
+
+  .afternoontea-text {
+    margin-left: 20px;
+  }
+
+  .afternoontea-image {
+    margin-top: 20px;
   }
 
   .homepageIntro,
