@@ -101,14 +101,6 @@
     font-size: 1.1em;
   }
 
-  p {
-    font-size: 0.8em;
-  }
-
-  .homepageHours table {
-    font-size: 0.9em;
-  }
-
   .home-big-info-content {
     margin: 15px;
   }
@@ -118,17 +110,15 @@
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
 
-  .homepageIntro,
-  .homepageHours,
-  .aboutContainer,
-  .menuContainer,
-  .rentContainer,
-  .shopContainer {
+  .homepage-intro,
+  .about-container,
+  .menu-container,
+  .shop-container {
     max-width: 600px;
     margin: 70px auto;
   }
 
-  .footerContainer {
+  .footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
@@ -149,10 +139,6 @@
 
   p {
     font-size: 0.8em;
-  }
-
-  .homepageHours table {
-    font-size: 0.9em;
   }
 
   .nav-ul a {
@@ -188,17 +174,15 @@
     margin-top: 20px;
   }
 
-  .homepageIntro,
-  .homepageHours,
-  .menuContainer,
-  .aboutContainer,
-  .rentContainer,
-  .shopContainer {
+  .homepage-intro,
+  .menu-container,
+  .about-container,
+  .shop-container {
     max-width: 600px;
     margin: 70px auto;
   }
 
-  .footerContainer {
+  .footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   }

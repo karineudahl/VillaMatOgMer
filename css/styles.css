@@ -86,7 +86,7 @@ a {
   transform: scale(1.4);
 }
 
-.whereAmIContainer li {
+.where-am-i-container li {
   display: inline;
 }
 
@@ -95,29 +95,18 @@ a {
   color: grey;
 }
 
-.ctaGreen {
-  background-color: #839895;
-  text-decoration: none;
-  color: white;
-  padding: 12px;
-  border-radius: 2px;
-  width: 110px;
-  font-size: 0.8em;
-  text-align: center;
-}
-
 footer {
   padding: 50px 50px 100px 50px;
   background-color: #d3ccbc;
   margin-top: 150px;
 }
 
-.footerContainer p,
-.footerTable {
+.footer-container p,
+.footer-table {
   font-size: 0.6em;
 }
 
-.footerContainer h4 {
+.footer-container h4 {
   font-size: 0.7em;
   margin-top: 40px;
 }

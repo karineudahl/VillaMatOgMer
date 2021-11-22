@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/catering.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
@@ -25,7 +26,7 @@
             <ul class="nav-ul" id="nav-ul">
                 <li><a href="menu.html">Meny</a></li>
                 <li><a href="shop.html">Landhandel</a></li>
-                <li><a href="catering.html" class="whereAmINow">Catering</a></li>
+                <li><a href="catering.html" class="where-am-i-now">Catering</a></li>
                 <li><a href="afternoontea.html">Afternoon tea</a></li>
                 <li><a href="about.html">Om oss</a></li>
             </ul>
@@ -40,46 +41,114 @@
 
 
     <main>
-        <nav class="whereAmIContainer">
+        <nav class="where-am-i-container">
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="catering.html" class="whereAmINow">> Catering</a></li>
+                <li><a href="catering.html" class="where-am-i-now">> Catering</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="catering-intro-text">
             <h1>Catering</h1>
             <p>Vi vil gjerne lage mat til selskap, jubileum, firmasamling, møter eller vennetreff.</p>
             <p>For at alt skal være så ferskt og godt som mulig, lager vi til maten i ”siste liten”. Vi bruker alltid friske råvarer og har fokus på at det skal være ferskt, friskt, delikat og med god smak.</p>
             <p>Maten blir servert på fine fat og skåler slik at det blir fest når en setter seg til bordet.</p>
         </div>
         <div>
-            <div>
-                
-            </div>
+            <div class="container" xs={1} sm={2} md={4}>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodtapas3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tapas</h5>
+                          <p class="card-text">Små lekre retter som nytes og gjør en passe mett.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodblings.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Miniblings</h5>
+                          <p class="card-text">Noen vil kalle det snitter eller smørbrød.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodfruit.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Salat, frukt ost og spekemat</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodlystbord3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lystbord</h5>
+                          <p class="card-text">Det kalles av de fleste koldtbord, men vi velger oss ordet lystbord - for du spiser det du har lyst på.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodcake.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaker</h5>
+                          <p class="card-text">Vi lager alle kakene selv - rett og slett hjemmebakt smak.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodvarm.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Varme retter</h5>
+                          <p class="card-text">Supper, gryter eller det du måtte ønske.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/foodchristmas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Julelunsj og julekoldtbord</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Meny</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
         </div>
-    
-    
     </main>
 
 
     <footer>
-
-        <div class="footerContainer">
-            <div class="footerContactUs">
+        <div class="footer-container">
+            <div>
                 <a href="contact.html"><h4><i class="fas fa-heart"></i>Kontakt oss</h4></a>
                 <p>Telefon: 69893481</p>
                 <p>Epost: post@villamatogmer.no</p>
                 <p>Daglig leder: Anne-Marit R. Vammeli</p>
             </div>
-            <div class="footerVisitUs">
+            <div>
                 <a href="about.html"><h4><i class="fas fa-heart"></i>Besøk oss</h4></a>
                 <p>Villa Mat og Mer</p>
                 <p>David Blidsgate 6</p>
                 <p>1850 Mysen</p>
             </div>
-            <div class="footerOpeningHours">
+            <div>
                 <h4><i class="fas fa-heart"></i>Åpningstider</h4>
-                <table class="footerTable">
+                <table class="footer-table">
                     <tr>
                         <td>Mandag til fredag</td>
                         <td>10:00 - 17:00</td>
@@ -96,9 +165,7 @@
                 <p>Kjøkkenet stenger 30 minutter før døren lukkes. Endringer i åpningstider i høytider og helligdager - sjekk vår Facebookside.</p>
             </div>
         </div>
-
-
-    </footer>
+    </footer> 
     
     <script src="js/hamburgermenu.js"></script>
 

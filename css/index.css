@@ -1,4 +1,4 @@
-.backgroundHome {
+.background-home {
   background: url(../images/homepage.jpg);
   min-height: 50vh;
   background-size: cover;
@@ -8,18 +8,14 @@
   min-width: 100%;
 }
 
-.homepageIntro {
+.homepage-intro {
   margin: 40px 30px 120px 30px;
   position: relative;
   text-align: center;
 }
 
-.homepageIntro h2 {
+.homepage-intro h2 {
   margin-top: 40px;
-}
-
-.homepageHours {
-  text-align: center;
 }
 
 .link-facebook {
@@ -76,11 +72,11 @@
   margin: 10px;
 }
 
-.ctaHomeContainer {
+.home-cta-container {
   position: relative;
 }
 
-.ctaHome {
+.home-cta {
   background-color: #839895;
   text-decoration: none;
   color: white;
@@ -96,7 +92,7 @@
   box-shadow: 4px 4px 4px lightgrey;
 }
 
-.ctaHome:hover {
+.home-cta:hover {
   background-color: white;
   color: #839895;
 }
