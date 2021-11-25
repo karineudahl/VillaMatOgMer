@@ -113,9 +113,18 @@
   .homepage-intro,
   .about-container,
   .menu-container,
-  .shop-container {
+  .shop-container,
+  .catering-spesific {
     max-width: 600px;
     margin: 70px auto;
+  }
+
+  .catering-container {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+
+  .catering-container-content {
+    margin: 0px 10px 50px 10px;
   }
 
   .footer-container {
@@ -177,9 +186,25 @@
   .homepage-intro,
   .menu-container,
   .about-container,
-  .shop-container {
+  .shop-container,
+  .catering-spesific {
     max-width: 600px;
     margin: 70px auto;
+  }
+  .catering-intro-text {
+    margin: 60px;
+  }
+  .catering-container {
+    margin: 0px 60px;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  }
+
+  .catering-container-content {
+    margin: 0px 10px 50px 10px;
+  }
+
+  .catering-spesific-menu li {
+    font-size: 0.8em;
   }
 
   .footer-container {

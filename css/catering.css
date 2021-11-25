@@ -1,3 +1,66 @@
 .catering-intro-text {
   margin: 50px 30px;
 }
+
+.catering-container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+
+.catering-container-content {
+  box-shadow: 0px 5px 6px rgb(0 0 0 / 20%);
+  margin: 0px 0px 50px 0px;
+  border-radius: 5px;
+  background-color: #efefef;
+}
+
+.catering-container-content:hover {
+  transform: scale(1.02);
+}
+
+.catering-container-content img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.catering-container-content h2 {
+  text-transform: none;
+  font-family: "Roboto Mono", monospace, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.catering-button {
+  background-color: #839895;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  margin: 15px 0px;
+  border-radius: 2px;
+  border: 2px solid #839895;
+  font-size: 0.9em;
+  text-align: center;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+
+.catering-button:hover {
+  background-color: white;
+  color: #839895;
+}
+
+.catering-spesific {
+  margin: 30px;
+}
+
+.catering-spesific h2 {
+  margin-top: 40px;
+}
+
+.catering-spesific-menu ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.catering-spesific-menu li {
+  font-size: 0.7em;
+  margin: 11px 0px;
+}
