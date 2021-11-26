@@ -65,6 +65,17 @@
   margin: 11px 0px;
 }
 
+.catering-spesific-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.catering-spesific-contact a {
+  text-transform: none;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
 .carousel-container {
   position: relative;
   max-width: 900px;

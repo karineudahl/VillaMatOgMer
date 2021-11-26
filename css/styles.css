@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 header {
@@ -73,7 +73,7 @@ a {
 .fa-envelope,
 .fa-phone-alt {
   color: #53534a;
-  font-size: 25px;
+  font-size: 22px;
   padding: 5px;
   margin: 10px 0px 10px 0px;
   cursor: pointer;
