@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Villa Mat og Mer | Cafe i Mysen</title>
+    <title>Villa Mat og Mer | Meny</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/coffe.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
     <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
 </head>
@@ -23,11 +23,11 @@
                 <div class="hamburger-stripes"></div>
             </button>
             <ul class="nav-ul" id="nav-ul">
-                <li><a href="menu.html">Meny</a></li>
+                <li><a href="menu.html" class="where-am-i-now">Meny</a></li>
                 <li><a href="shop.html">Landhandel</a></li>
                 <li><a href="catering.html">Catering</a></li>
                 <li><a href="afternoontea.html">Afternoon tea</a></li>
-                <li><a href="about.html" class="where-am-i-now">Om oss</a></li>
+                <li><a href="about.html">Om oss</a></li>
             </ul>
         </nav>
         <div class="iconContainer">
@@ -37,38 +37,41 @@
             <a href="tel:69893481"><i class="fas fa-phone-alt"></i></a>
         </div>
     </header>
+
+
     <main>
         <nav class="where-am-i-container">
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="about.html" class="where-am-i-now">> Om oss</a></li>
+                <li><a href="menu.html" class="where-am-i-now">> Kaffe</a></li>
             </ul>
         </nav>
-        <div class="background-about"></div>
-        <div class="about-container">
-            <h1>Villa Mat og Mer spiseri og landhandel</h1>
-                <p>På Villa Mat og Mer får du servert fersk mat som vi har stått opp tidlig for å forberede. Fra vårt spiseri ordnes det salater, blingser, foccacia og mange varianter av søte godsaker som lapper, boller og kaker. Ønsker du varm mat har vi supper. </p>
-                <p>Alt dette kan du nyte i våre trivelige lokaler eller kanskje du vil ta det med deg for å hygge deg litt ekstra på jobb, på tur eller hjemme i sofaen.</p>
-                <p>Villa Mat og Mer vil være den gamle gode landhandelen i ny prakt. Det første du ser når du stikker innom er en stor disk som bugner av ferske bakevarer, kaker og konfekt.</p>
-                <p>Vi vil kunne tilby deg å smake på og kjøpe med deg norskprodusert ost fra ildsjeler rundt om i Norge, spekemat i ulike varianter syltetøy, kjeks, oljer og andre godsaker.</p>
-            <h2>Vår filosofi</h2>
-                <p>Villa Mat og Mer ligger i en gammel villa klemt inn mellom nye mursteinsbygninger. Vi har lyst at det skal være litt Villa Villa Kulla – et sted med mat og opplevelser som du kan dele med familie, dine venner eller kollegaer.</p>
-                <p>Vi ønsker at våre gjester skal glede seg over ett treffsted der matglede, kvalitet, service og en trivelig atmosfære står i sentrum. </p>
-                <p>Vi vil leke med den norske maten og utvikle og videreformidle matglede. Villa Mat og Mer er vårt spiseri og vår landhandel med leken atmosfære og frisk, folkelig mat.</p>
-            <h2>Kontakt oss</h2>
-                <p>Telefon: <a href="tel:69893481">69893481</a></p>
-                <p>Epost: <a href="mailto:post@villamatogmer.no">post@villamatogmer.no</a></p>
-                <p>Daglig leder: Anne-Marit R. Vammeli</p>
-            <h2>Hvor finner du oss</h2>
-                <p>Adresse: David Blidsgate 6, 1850 Mysen</p>
+        <div class="coffe-container">
+            <h1>Kaffe</h1>
+            <div>
+                <img src="images/home2.jpg" alt="">
+            </div>
+            <div>
+                <h2>Kaffemeny</h2>
+                <ul>
+                    <li><i class="fas fa-heart"></i>Espresso</li>
+                    <li><i class="fas fa-heart"></i>Americano</li>
+                    <li><i class="fas fa-heart"></i>Cortado</li>
+                    <li><i class="fas fa-heart"></i>Cappucino</li>
+                    <li><i class="fas fa-heart"></i>Caffe Latte</li>
+                    <li><i class="fas fa-heart"></i>Caffe Mocca</li>
+                    <li><i class="fas fa-heart"></i>Chat Latte</li>
+                    <li><i class="fas fa-heart"></i>Iskaffe</li>
+                    <li><i class="fas fa-heart"></i>Ismocca</li>
+                    <li><i class="fas fa-heart"></i>Varm sjokolade med krem</li>
+                </ul>           
+            </div>
+        </div>
+        
 
-
-                <div id="map"></div>
-
-
-
-        </div> 
     </main>
+
+
     <footer>
         <div class="footer-container">
             <div>
@@ -105,10 +108,6 @@
     </footer> 
     
     <script src="js/hamburgerMenu.js"></script>
-    <script src="js/googleMaps.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
+
 </body>
 </html>

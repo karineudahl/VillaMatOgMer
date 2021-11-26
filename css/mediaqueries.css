@@ -118,7 +118,8 @@
   .about-container,
   .menu-container,
   .shop-container,
-  .catering-spesific {
+  .catering-spesific,
+  .coffe-container {
     max-width: 600px;
     margin: 70px auto;
   }
@@ -191,7 +192,8 @@
   .menu-container,
   .about-container,
   .shop-container,
-  .catering-spesific {
+  .catering-spesific,
+  .coffe-container {
     max-width: 600px;
     margin: 70px auto;
   }
