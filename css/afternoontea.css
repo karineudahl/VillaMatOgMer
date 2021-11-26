@@ -9,3 +9,8 @@
 .afternoontea-image img {
   width: 100%;
 }
+
+.afternoontea-text a {
+  text-transform: none;
+  text-decoration: underline;
+}

@@ -111,6 +111,11 @@ footer {
   margin-top: 40px;
 }
 
+.footer-container a {
+  text-decoration: underline;
+  text-transform: none;
+}
+
 .fa-heart {
   color: #c5463c;
   margin-right: 10px;
