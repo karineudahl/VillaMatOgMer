@@ -1,3 +1,3 @@
 # Villa Mat og Mer 
 
-Website for my family cafe. 
+Website for my mothers cafe. 
