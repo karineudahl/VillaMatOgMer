@@ -65,7 +65,7 @@
 .home-small-info {
   margin: 50px 20px 200px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 }
 
 .home-small-info-content {

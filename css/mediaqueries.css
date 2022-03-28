@@ -102,7 +102,7 @@
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .home-big-info-content {
@@ -207,10 +207,6 @@
 
   .catering-container-content {
     margin: 0px 10px 50px 10px;
-  }
-
-  .catering-spesific-menu li {
-    font-size: 0.8em;
   }
 
   .footer-container {
