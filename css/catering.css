@@ -43,8 +43,7 @@
 }
 
 .catering-button:hover {
-  background-color: white;
-  color: #839895;
+  filter: brightness(0.85);
 }
 
 .catering-spesific {
