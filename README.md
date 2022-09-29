@@ -12,4 +12,6 @@ Live version:
 - Site to show what Villa Mat og Mer cafe has to offer 
 
 # Built With 
-- HTML, CSS, JavaScript 
+- HTML
+- CSS
+- JavaScript 
