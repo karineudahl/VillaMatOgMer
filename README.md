@@ -18,3 +18,13 @@ Website for Villa Mat og Mer cafe.
 - 👁 CSS
 - 👩🏽‍💻 JavaScript
 - 🏞 Adobe XD for design
+
+# Getting started 
+## Installing 
+Clone the repo
+```
+gh repo clone karineudahl/VillaMatOgMer
+```
+
+## Running 
+Right click on one HTML file, and "Open with Live Server" 
